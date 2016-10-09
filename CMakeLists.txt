@@ -28,7 +28,7 @@ if(SPDLOG_BUILD_EXAMPLES)
 endif()
 
 if(SPDLOG_BUILD_TESTS)
-	include(CTest)
+    include(CTest)
     add_subdirectory(tests)
 endif()
 
